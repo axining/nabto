@@ -1,1 +1,0 @@
-g++    -rdynamic CMakeFiles/nabto_stream_cli.dir/src/main_stream.cpp.o CMakeFiles/nabto_stream_cli.dir/src/nabto_stream_log.c.o  -o nabto_stream_cli  -L/mnt/hgfs/shared/nabto_stream_cli/lib -Wl,-rpath,/mnt/hgfs/shared/nabto_stream_cli/lib -lnabto_client_api -lnabto_client_api 

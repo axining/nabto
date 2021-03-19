@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "unabto_app.h": "c",
-        "unabto_memory.h": "c",
-        "unabto_stream_event.h": "c",
-        "unabto_stream_environment.h": "c"
-    }
-}

@@ -1,0 +1,141 @@
+//unabto_config.h      设置NABTO_ENABLE_STREAM
+unabto_stream_accept(unabto_stream* stream)   //接收stream
+size_t unabto_stream_read(uanbto_stream* stream, uint8_t** buf, unabto_stream_hint* hint)  //从stream中读取，
+//返回可用的字节数，若为0，则可以读取状态提示以获取为读取任何内容的原因
+unabto_stream_ack(unabto_stream* stream, const uint8_t* buf, size_t used,unabto_stream_hint* hint)  //向framework确认字节已被消耗，可以释放
+size_t unabto_stream_write(unabto_stream* stream, uint8_t* buf, size_t size, unabto_stream_hint* hint)  //将数据写入stream，返回已写入的字节数
+bool unabto_stream_close(unabto_stream* stream)  //关闭stream
+voidunabto_stream_release(unabto_stream* stream)  //释放stream
+//unabto_config_defaults.h  NABTO_ENABLE_MICRO_STREAM 1.
+
+tar -zxvf java.tar.gz                                             
+
+aibspi.trial.nabto.net.
+
+vbqh4jgc.aibspi.trial.nabto.net
+01a0650ceb32c7d2263323923d84cdaa
+
+-d vbqh4jgc.aibspi.trial.nabto.net -p pr-payjcyqp -k 01a0650ceb32c7d2263323923d84cdaa
+
+./unabto_stream -d vbqh4jgc.aibspi.trial.nabto.net -k 01a0650ceb32c7d2263323923d84cdaa
+
+./nabto_stream_cli -n nabto-user -d vbqh4jgc.aibspi.trial.nabto.net
+
+gcc -o test main.c -L libnabto_client_api.so -L libnabto_client_api.jni.so libnabto_client_api_static.a libnabto_static_external.a
+
+
+
+unabto初始化：
+nabto_main_setup* unabto_init_context(void)
+nabto_main_setup(id,url,key)
+bool unabto_init(void)
+
+void unabto_tick(void)  //unabto框架运行
+
+application_event_result application_event(
+	application_request* applicationRequest,
+	unabto_query_request* queryRequest,
+	unabto_query_response* queryResponse)
+NABTO_APPLICATION_EVENT_MODEL_ASYNC  //同步
+
+cmake --build . --config Release --target install ../_install/bin/embedded_unit_test -p
+
+wget https://copr.fedoraproject.org/coprs/hhorak/devtoolset-4-rebuild-bootstrap/repo/epel-6/hhorak-devtoolset-4-rebuild-bootstrap-epel-6.repo -O /etc/yum.repos.d/devtools-4.repo
+
+
+1.编写unabto设备端stream代码                                                                                                                               
+2.编写nabto客户端stream部分代码
+3.完成设备端与客户端加密连接和数据收发
+   然后过年放假
+
+
+
+
+1.put_time不是tsd成员
+2.如何使用nabto_api库
+
+
+
+2021-02-22 22:37:25 URL: ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-6.1.0.tar.bz2 [2383840] -> "./gmp-6.1.0.tar.bz2" [1]
+2021-02-22 22:42:23 URL: ftp://gcc.gnu.org/pub/gcc/infrastructure/mpfr-3.1.4.tar.bz2 [1279284] -> "./mpfr-3.1.4.tar.bz2" [1]
+2021-02-22 22:47:04 URL: ftp://gcc.gnu.org/pub/gcc/infrastructure/mpc-1.0.3.tar.gz [669925] -> "./mpc-1.0.3.tar.gz" [1]
+2021-02-22 22:53:16 URL: ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.18.tar.bz2 [1658291] -> "./isl-0.18.tar.bz2" [1]
+gmp-6.1.0.tar.bz2: 确定
+mpfr-3.1.4.tar.bz2: 确定
+mpc-1.0.3.tar.gz: 确定
+isl-0.18.tar.bz2: 确定
+All prerequisites downloaded successfully.
+
+
+
+
+[yuanxin@localhost simple_stream]$ ./simple_stream_device pr-payjcyqp de-9icqnjmk
+Nabto Embedded SDK Version 5.5.0-master.1836+b59170b.dirty
+Device: pr-payjcyqp.de-9icqnjmk with fingerprint: [0442f1f37948a214c2329e0d2dd737150a9b3bcc0c0884240130d5f06edf54b0]
+
+
+[yuanxin@localhost simple_stream]$ ./simple_stream_client -d de-9icqnjmk -p pr-payjcyqp -k sk-e7c8ed0b275facf6da2d8b1854c00f0f -s https://pr-payjcyqp.clients.nabto.net
+Nabto Client SDK Version: 5.4.0
+connecting to pr-payjcyqp.de-9icqnjmk
+Connected to device with fingerprint: 0442f1f37948a214c2329e0d2dd73715
+
+
+{
+  "ProductId":"pr-payjcyqp",
+  "DeviceId":"de-9icqnjmk",
+  "Server":"pr-payjcyqp.devices.nabto.net"
+}
+    
+
+-s sk-e7c8ed0b275facf6da2d8b1854c00f0f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

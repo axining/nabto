@@ -1,3 +1,0 @@
-/mnt/hgfs/shared/nabto_stream_cli/build/CMakeFiles/rebuild_cache.dir
-/mnt/hgfs/shared/nabto_stream_cli/build/CMakeFiles/edit_cache.dir
-/mnt/hgfs/shared/nabto_stream_cli/build/CMakeFiles/nabto_stream_cli.dir
