@@ -1,0 +1,69 @@
+Determining if files openssl/rand.h exist failed with the following output:
+Change Dir: /mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f9487/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f9487.dir/build.make CMakeFiles/cmTC_f9487.dir/build
+gmake[1]: 进入目录“/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f9487.dir/HAVE_SYSTEM_OPENSSL_RANDOM_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f9487.dir/HAVE_SYSTEM_OPENSSL_RANDOM_H.c.o   -c /mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CheckIncludeFiles/HAVE_SYSTEM_OPENSSL_RANDOM_H.c
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CheckIncludeFiles/HAVE_SYSTEM_OPENSSL_RANDOM_H.c:2:10: 致命错误：openssl/rand.h：没有那个文件或目录
+    2 | #include <openssl/rand.h>
+      |          ^~~~~~~~~~~~~~~~
+编译中断。
+gmake[1]: *** [CMakeFiles/cmTC_f9487.dir/HAVE_SYSTEM_OPENSSL_RANDOM_H.c.o] 错误 1
+gmake[1]: 离开目录“/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_f9487/fast] 错误 2
+
+Source:
+/* */
+#include <openssl/rand.h>
+
+
+int main(void){return 0;}
+
+Determining if files openssl/evp.h exist failed with the following output:
+Change Dir: /mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4bca9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4bca9.dir/build.make CMakeFiles/cmTC_4bca9.dir/build
+gmake[1]: 进入目录“/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4bca9.dir/HAVE_SYSTEM_OPENSSL_EVP_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4bca9.dir/HAVE_SYSTEM_OPENSSL_EVP_H.c.o   -c /mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CheckIncludeFiles/HAVE_SYSTEM_OPENSSL_EVP_H.c
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CheckIncludeFiles/HAVE_SYSTEM_OPENSSL_EVP_H.c:2:10: 致命错误：openssl/evp.h：没有那个文件或目录
+    2 | #include <openssl/evp.h>
+      |          ^~~~~~~~~~~~~~~
+编译中断。
+gmake[1]: *** [CMakeFiles/cmTC_4bca9.dir/HAVE_SYSTEM_OPENSSL_EVP_H.c.o] 错误 1
+gmake[1]: 离开目录“/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_4bca9/fast] 错误 2
+
+Source:
+/* */
+#include <openssl/evp.h>
+
+
+int main(void){return 0;}
+
+Determining if files openssl/hmac.h exist failed with the following output:
+Change Dir: /mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f5548/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f5548.dir/build.make CMakeFiles/cmTC_f5548.dir/build
+gmake[1]: 进入目录“/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f5548.dir/HAVE_SYSTEM_OPENSSL_HMAC_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f5548.dir/HAVE_SYSTEM_OPENSSL_HMAC_H.c.o   -c /mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CheckIncludeFiles/HAVE_SYSTEM_OPENSSL_HMAC_H.c
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CheckIncludeFiles/HAVE_SYSTEM_OPENSSL_HMAC_H.c:2:10: 致命错误：openssl/hmac.h：没有那个文件或目录
+    2 | #include <openssl/hmac.h>
+      |          ^~~~~~~~~~~~~~~~
+编译中断。
+gmake[1]: *** [CMakeFiles/cmTC_f5548.dir/HAVE_SYSTEM_OPENSSL_HMAC_H.c.o] 错误 1
+gmake[1]: 离开目录“/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_f5548/fast] 错误 2
+
+Source:
+/* */
+#include <openssl/hmac.h>
+
+
+int main(void){return 0;}
+

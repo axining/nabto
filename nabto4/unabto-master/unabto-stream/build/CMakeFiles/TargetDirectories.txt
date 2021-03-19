@@ -1,0 +1,9 @@
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/install.dir
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/list_install_components.dir
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/unabto_stream_epoll.dir
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/install/strip.dir
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/install/local.dir
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/unabto_stream.dir
+/mnt/hgfs/shared/unabto-4.3.0/unabto-stream/build/CMakeFiles/unabto_stream_tick.dir
